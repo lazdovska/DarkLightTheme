@@ -26,13 +26,13 @@ class ThemeViewController: UIViewController {
         self.isOn = false
         self.darkButton.setTitle("Dark theme on", for: .normal)
         self.darkButton.setTitleColor(UIColor.white, for: .normal)
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .black
     }else{
         print("Dark theme off")
         self.isOn = true
         self.darkButton.setTitle("Dark theme off", for: .normal)
         self.darkButton.setTitleColor(UIColor.black, for: .normal)
-        self.view.backgroundColor = .black
+        self.view.backgroundColor = .white
     }
     }
     
